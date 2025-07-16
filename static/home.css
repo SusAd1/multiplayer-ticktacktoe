@@ -15,14 +15,14 @@ body {
 }
 
 .menu-button {
-  width: 200px;          /* fixed width */
-  height: 50px;          /* reasonable height */
+  width: 200px;
+  height: 50px;
   cursor: pointer;
-  transition: transform 0.3s ease-in;
+  transition: transform 0.2s ease-in;
   background-color: #3498db;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 10px;
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -30,5 +30,5 @@ body {
 }
 
 .menu-button:hover {
-  transform: scale(1.2); /* smaller scale-up */
+  transform: scale(1.08);
 }
