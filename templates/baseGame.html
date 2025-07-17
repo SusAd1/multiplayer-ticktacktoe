@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Tick Tack Toe {% endblock %}</title>
+    
+</head>
+<body>
+    {% block Game_container %} 
+        <div id="gameContainer">
+            <h1>{% block game_title %} Tick Tack Toe {% endblock %}</h1>
+            <div class =  "status" id = "status"> Player's Turn</div>
+            <div id = "board"></div>
+        </div>
+    {% endblock %}
+    <script src="/static/gameManager.js" type="module"></script>
+    {% block script %} {% endblock %}
+</body>
+
+</html>
